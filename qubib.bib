@@ -35978,4 +35978,59 @@ To highlight this last point, we leverage our new monogamy-of-entanglement prope
   issn      = {0302-9743},
 }
 
+@Misc{Z22:label,
+  author       = {Mark Zhandry},
+  howpublished = {Cryptology {ePrint} Archive, Paper 2022/226},
+  month        = jun,
+  title        = {To Label, or Not To Label (in Generic Groups)},
+  year         = {2022},
+  abstract     = {Generic groups are an important tool for analyzing the feasibility and in-feasibility of group-based cryptosystems. There are two distinct wide-spread versions of generic groups, Shoup&#39;s and Maurer&#39;s, the main difference being whether or not group elements are given explicit labels. The two models are often treated as equivalent. In this work, however, we demonstrate that the models are in fact quite different, and care is needed when stating generic group results:
+
+- We show that numerous textbook constructions are *not* captured by Maurer, but are captured by Shoup. In the other direction, any construction captured by Maurer *is* captured by Shoup.
+
+- For constructions that exist in both models, we show that security is equivalent for &#34;single stage&#34; games, but Shoup security is strictly stronger than Maurer security for some &#34;multi-stage&#34; games.
+
+- The existing generic group un-instantiability results do not apply to Maurer. We fill this gap with a new un-instantiability result.
+
+- We explain how the known black box separations between generic groups and identity-based encryption do not fully apply to Shoup, and resolve this by providing such a separation.
+
+- We give a new un-instantiability result for the *algebraic* group model.},
+  file         = {:Z22_label - To Label, or Not to Label (in Generic Groups).pdf:PDF},
+  url          = {https://eprint.iacr.org/2022/226},
+  version      = {20220623:001229},
+}
+
+@Misc{AFMP20:cryptographic,
+  author       = {Navid Alamati and Luca De Feo and Hart Montgomery and Sikhar Patranabis},
+  howpublished = {Cryptology {ePrint} Archive, Paper 2020/1188},
+  month        = sep,
+  title        = {Cryptographic Group Actions and Applications},
+  year         = {2020},
+  abstract     = {Isogeny-based assumptions have emerged as a viable option for quantum-secure cryptography. Recent works have
+shown how to build efficient (public-key) primitives from isogeny-based assumptions such as CSIDH and CSI-FiSh.
+However, in its present form, the landscape of isogenies does not seem very amenable to realizing new cryptographic
+applications. Isogeny-based assumptions often have unique efficiency and security properties, which makes building
+new cryptographic applications from them a potentially tedious and time-consuming task.
+
+
+In this work, we propose a new framework based on group actions that enables the easy usage of a variety of
+isogeny-based assumptions. Our framework generalizes the works of Brassard and Yung (Crypto’90) and Couveignes
+(Eprint’06). We provide new definitions for group actions endowed with natural hardness assumptions that model
+isogeny-based constructions amenable to group actions such as CSIDH and CSI-FiSh.
+
+
+We demonstrate the utility of our new framework by leveraging it to construct several primitives that were not
+previously known from isogeny-based assumptions. These include smooth projective hashing, dual-mode PKE,
+two-message statistically sender-private OT, and Naor-Reingold style PRF. These primitives are useful building blocks
+for a wide range of cryptographic applications.
+
+
+We introduce a new assumption over group actions called Linear Hidden Shift (LHS) assumption. We then present
+some discussions on the security of the LHS assumption and we show that it implies symmetric KDM-secure encryption,
+which in turn enables many other primitives that were not previously known from isogeny-based assumptions.},
+  file         = {:AFMP20_cryptographic - Cryptographic Group Actions and Applications.pdf:PDF},
+  url          = {https://eprint.iacr.org/2020/1188},
+  version      = {20200930:074854},
+}
+
 @Comment{jabref-meta: databaseType:bibtex;}
