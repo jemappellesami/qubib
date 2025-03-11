@@ -3554,18 +3554,18 @@
 }
 
 @InProceedings{BCCK+20:security,
-	author = "Badertscher, Christian and Cojocaru, Alexandru and
-                  Colisson, L{\'e}o and Kashefi, Elham and Leichtle,
-                  Dominik and Mantri, Atul and Wallden, Petros",
-	editor = "Moriai, Shiho and Wang, Huaxiong",
-	title = "Security Limitations of Classical-Client Delegated
-                  Quantum Computing",
-	booktitle = "Advances in Cryptology -- ASIACRYPT 2020",
-	year = 2020,
-	publisher = "Springer International Publishing",
-	address = "Cham",
-	pages = "667--696",
-	isbn = "978-3-030-64834-3"
+  author    = {Badertscher, Christian and Cojocaru, Alexandru and Colisson, L{\'e}o and Kashefi, Elham and Leichtle, Dominik and Mantri, Atul and Wallden, Petros},
+  booktitle = {Advances in Cryptology -- ASIACRYPT 2020},
+  title     = {Security Limitations of Classical-Client Delegated Quantum Computing},
+  year      = {2020},
+  address   = {Cham},
+  editor    = {Moriai, Shiho and Wang, Huaxiong},
+  pages     = {667--696},
+  publisher = {Springer International Publishing},
+  eprint    = {2007.01668},
+  file      = {:BCCK+20_security - Security Limitations of Classical Client Delegated Quantum Computing.pdf:PDF},
+  isbn      = {978-3-030-64834-3},
+  url       = {https://arxiv.org/abs/2007.01668},
 }
 
 @article{BCD01:quantum,
@@ -14875,15 +14875,15 @@
 	Year = 2001
 }
 
-@INPROCEEDINGS{GV19:computationally,
-	author = {Gheorghiu, Alexandru and Vidick, Thomas},
-	booktitle = {2019 IEEE 60th Annual Symposium on Foundations of
-                  Computer Science (FOCS)},
-	title = {Computationally-Secure and Composable Remote State
-                  Preparation},
-	year = 2019,
-	pages = {1024-1033},
-	doi = {10.1109/FOCS.2019.00066}
+@InProceedings{GV19:computationally,
+  author    = {Gheorghiu, Alexandru and Vidick, Thomas},
+  booktitle = {2019 IEEE 60th Annual Symposium on Foundations of Computer Science (FOCS)},
+  title     = {Computationally-Secure and Composable Remote State Preparation},
+  year      = {2019},
+  pages     = {1024-1033},
+  doi       = {10.1109/FOCS.2019.00066},
+  file      = {:GV19_computationally - Computationally Secure and Composable Remote State Preparation.pdf:PDF},
+  url       = {https://arxiv.org/abs/1904.06320},
 }
 
 @article{GV95:quantum,
@@ -36310,6 +36310,57 @@ which in turn enables many other primitives that were not previously known from 
   keywords      = {Quantum Physics (quant-ph), Cryptography and Security (cs.CR), FOS: Physical sciences, FOS: Computer and information sciences},
   primaryclass  = {quant-ph},
   publisher     = {arXiv},
+}
+
+@Article{VC21:quantum,
+  author        = {Van Herstraeten, Zacharie and Cerf, Nicolas J.},
+  journal       = {Phys. Rev. A 104, 042211 (2021)},
+  title         = {Quantum Wigner entropy},
+  year          = {2021},
+  issn          = {2469-9934},
+  month         = oct,
+  number        = {4},
+  pages         = {042211},
+  volume        = {104},
+  abstract      = {We define the Wigner entropy of a quantum state as the differential Shannon entropy of the Wigner function of the state. This quantity is properly defined only for states that possess a positive Wigner function, which we name Wigner-positive states, but we argue that it is a proper measure of quantum uncertainty in phase space. It is invariant under symplectic transformations (displacements, rotations, and squeezing) and we conjecture that it is lower bounded by $\ln\pi +1$ within the convex set of Wigner-positive states. It reaches this lower bound for Gaussian pure states, which are natural minimum-uncertainty states. This conjecture bears a resemblance with the Wehrl-Lieb conjecture, and we prove it over the subset of passive states of the harmonic oscillator which are of particular relevance in quantum thermodynamics. Along the way, we present a simple technique to build a broad class of Wigner-positive states exploiting an optical beam splitter and reveal an unexpectedly simple convex decomposition of extremal passive states. The Wigner entropy is anticipated to be a significant physical quantity, for example, in quantum optics where it allows us to establish a Wigner entropy-power inequality. It also opens a way towards stronger entropic uncertainty relations. Finally, we define the Wigner-R\'enyi entropy of Wigner-positive states and conjecture an extended lower bound that is reached for Gaussian pure states.},
+  archiveprefix = {arXiv},
+  copyright     = {Creative Commons Attribution 4.0 International},
+  date          = {2021-05-26},
+  doi           = {10.1103/physreva.104.042211},
+  eprint        = {2105.12843},
+  file          = {:VC21_quantum - Quantum Wigner Entropy.pdf:PDF},
+  keywords      = {Quantum Physics (quant-ph), FOS: Physical sciences},
+  primaryclass  = {quant-ph},
+  publisher     = {American Physical Society (APS)},
+}
+
+@Article{BGGR23:nonlocality,
+  author        = {Barooti, Khashayar and Gheorghiu, Alexandru and Głuch, Grzegorz and Renou, Marc-Olivier},
+  title         = {Nonlocality under Computational Assumptions},
+  year          = {2023},
+  month         = mar,
+  abstract      = {Nonlocality and its connections to entanglement are fundamental features of quantum mechanics that have found numerous applications in quantum information science. A set of correlations is said to be nonlocal if it cannot be reproduced by spacelike-separated parties sharing randomness and performing local operations. An important practical consideration is that the runtime of the parties has to be shorter than the time it takes light to travel between them. One way to model this restriction is to assume that the parties are computationally bounded. We therefore initiate the study of nonlocality under computational assumptions and derive the following results: (a) We define the set $\mathsf{NeL}$ (not-efficiently-local) as consisting of all bipartite states whose correlations arising from local measurements cannot be reproduced with shared randomness and \emph{polynomial-time} local operations. (b) Under the assumption that the Learning With Errors problem cannot be solved in \emph{quantum} polynomial-time, we show that $\mathsf{NeL}=\mathsf{ENT}$, where $\mathsf{ENT}$ is the set of \emph{all} bipartite entangled states (pure and mixed). This is in contrast to the standard notion of nonlocality where it is known that some entangled states, e.g. Werner states, are local. In essence, we show that there exist (efficient) local measurements producing correlations that cannot be reproduced through shared randomness and quantum polynomial-time computation. (c) We prove that if $\mathsf{NeL}=\mathsf{ENT}$ unconditionally, then $\mathsf{BQP}\neq\mathsf{PP}$. In other words, the ability to certify all bipartite entangled states against computationally bounded adversaries gives a non-trivial separation of complexity classes. (d) Using (c), we show that a certain natural class of 1-round delegated quantum computation protocols that are sound against $\mathsf{PP}$ provers cannot exist.},
+  archiveprefix = {arXiv},
+  copyright     = {Creative Commons Attribution 4.0 International},
+  doi           = {10.48550/ARXIV.2303.02080},
+  eprint        = {2303.02080},
+  file          = {:BGGR23_nonlocality - Nonlocality under Computational Assumptions.pdf:PDF},
+  keywords      = {Quantum Physics (quant-ph), FOS: Physical sciences},
+  primaryclass  = {quant-ph},
+  publisher     = {arXiv},
+}
+
+ 
+@InProceedings{I:personal,
+  author     = {Impagliazzo, R.},
+  booktitle  = {Proceedings of Structure in Complexity Theory. Tenth Annual IEEE Conference},
+  title      = {A personal view of average-case complexity},
+  pages      = {134--147},
+  publisher  = {IEEE Comput. Soc. Press},
+  series     = {SCT-95},
+  collection = {SCT-95},
+  doi        = {10.1109/sct.1995.514853},
+  file       = {:I_personal - A Personal View of Average Case Complexity.pdf:PDF},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
